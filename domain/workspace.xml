@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace xmlns="http://tuscany.apache.org/xmlns/sca/1.0" xmlns:ns1="http://tuscany.apache.org/xmlns/sca/1.0">
+  <contribution location="file:/home/zhou/IdeaProjects/autoDeploy/domain/./cloud" uri="http://tuscany.apache.org/cloud"/>
+  <contribution location="file:/home/zhou/IdeaProjects/autoDeploy/domain/echo.jar" uri="http://domain/echo"/>
+<contribution location="file:/home/zhou/IdeaProjects/autoDeploy/domain/cal.jar" uri="http://domain/cal"/><contribution location="file:/home/zhou/IdeaProjects/autoDeploy/domain/ws.jar" uri="http://domain/ws"/></workspace>

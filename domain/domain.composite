@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<composite xmlns="http://www.osoa.org/xmlns/sca/1.0" xmlns:ns1="http://www.osoa.org/xmlns/sca/1.0" local="true" name="domain" targetNamespace="http://tuscany.apache.org/xmlns/sca/1.0">
+  <include xmlns:ns2="http://sample/echo" name="ns2:EchoBinding" uri="http://domain/echo"></include>
+<include xmlns:ns2="http://sample" name="ns2:Calculator" uri="http://domain/cal"></include><include name="ns2:myapp" uri="http://domain/ws" xmlns:ns2="http://myapp"/></composite>

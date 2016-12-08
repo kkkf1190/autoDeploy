@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<composite xmlns="http://www.osoa.org/xmlns/sca/1.0" xmlns:ns1="http://www.osoa.org/xmlns/sca/1.0" local="true" name="cloud" targetNamespace="http://tuscany.apache.org/xmlns/sca/1.0">
+  <include xmlns:ns2="http://tuscany.apache.org/cloud" name="ns2:node1" uri="http://tuscany.apache.org/cloud"></include>
+<include xmlns:ns2="http://tuscany.apache.org/cloud" name="ns2:node2" uri="http://tuscany.apache.org/cloud"></include><include name="ns2:node3" uri="http://tuscany.apache.org/cloud" xmlns:ns2="http://tuscany.apache.org/cloud"/></composite>

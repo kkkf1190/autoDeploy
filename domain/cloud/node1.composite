@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<composite xmlns="http://www.osoa.org/xmlns/sca/1.0" xmlns:c="http://sample/echo" xmlns:t="http://tuscany.apache.org/xmlns/sca/1.0" targetNamespace="http://tuscany.apache.org/cloud" name="node1">
+
+	<component name="node1">
+		<t:implementation.node uri="http://domain/echo" composite="c:EchoBinding" />
+		<service name="Node">
+			<binding.ws uri="http://localhost:8989" />
+           <binding.sca uri="http://localhost:8989" />
+			<t:binding.http uri="http://localhost:8989" />
+			<t:binding.jsonrpc uri="http://localhost:8989" />
+			<t:binding.atom uri="http://localhost:8989" />
+		</service>
+	</component>
+</composite>
